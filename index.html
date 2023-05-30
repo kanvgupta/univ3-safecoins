@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ethereum Wallet App</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/ethers@5.6.0-alpha.118/dist/ethers.min.js"></script>
+    <script defer src="https://unpkg.com/@rainbow-me/rainbow-bridge@1.0.3/dist/index.js"></script>
+    <script defer src="app.js"></script>
+</head>
+
+<body>
+    <div class="app" id="app">
+        <h1>Simple Ethereum Wallet</h1>
+        <button class="connect-button" id="connectWallet">Connect Wallet</button>
+        <button class="balance-button" id="getBalance" disabled>Get ETH Balance</button>
+        <p id="ethBalance">Balance: Not fetched</p>
+    </div>
+</body>
+
+</html>
